@@ -1,4 +1,4 @@
-INSERT [dbo].[Countries] ([Id], [Name], [Code], [Language]) VALUES (1, N'Andorra', N'AD', N'ca')
+INSERT [dbo].[Countries] ([Id], [Name]) VALUES (1, N'Andorra')
 INSERT [dbo].[Countries] ([Id], [Name], [Code], [Language]) VALUES (2, N'United Arab Emirates', N'AE', N'ar')
 INSERT [dbo].[Countries] ([Id], [Name], [Code], [Language]) VALUES (3, N'Afghanistan', N'AF', N'fa')
 INSERT [dbo].[Countries] ([Id], [Name], [Code], [Language]) VALUES (4, N'Antigua and Barbuda', N'AG', N'en')
