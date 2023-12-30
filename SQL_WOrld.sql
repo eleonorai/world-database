@@ -1,4 +1,3 @@
-/****** Object:  Table [dbo].[Countries]    Script Date: 31-Dec-18 1:27:50 PM ******/
 SET ANSI_NULLS ON
 GO
 
@@ -8,8 +7,6 @@ GO
 CREATE TABLE [dbo].[Countries](
 	[Id] [smallint] NOT NULL,
 	[Name] [varchar](255) NOT NULL,
-	[Code] [varchar](2) NOT NULL,
-	[Language] [varchar](3) NOT NULL,
 PRIMARY KEY CLUSTERED 
 (
 	[Id] ASC
@@ -17,7 +14,7 @@ PRIMARY KEY CLUSTERED
 ) ON [PRIMARY]
 GO
 
-/****** Object:  Table [dbo].[Regions]    Script Date: 31-Dec-18 1:27:55 PM ******/
+
 SET ANSI_NULLS ON
 GO
 
@@ -42,7 +39,6 @@ GO
 ALTER TABLE [dbo].[Regions] CHECK CONSTRAINT [FK_Regions_Countries]
 GO
 
-/****** Object:  Table [dbo].[Cities]    Script Date: 31-Dec-18 1:27:35 PM ******/
 SET ANSI_NULLS ON
 GO
 
